@@ -13,3 +13,6 @@
 <img src="https://github.com/MuhammadAttia/Android-Basic-Nanodegree/blob/master/Project%204-%20Musical%20Structure%20App/music.gif" width=270 hight=270>
 ## Project 5: Report Card [Report Card](https://github.com/MuhammadAttia/Android-Basic-Nanodegree/blob/master/Project%205%20-%20Report%20Card/ReportCard.java)
 #### Create a custom Java class to model the information in a student report card.
+## Project 6: Tour Guide App[Jordan Tour Guide ](https://github.com/MuhammadAttia/Android-Basic-Nanodegree/tree/master/Project%206%20Tour%20Guide%20App)
+#### Create an app to guide a user around a city or location of your choice.
+<img src="https://github.com/MuhammadAttia/Android-Basic-Nanodegree/blob/master/Project%206%20Tour%20Guide%20App/app/jordanTourApp.gif" width=270 hight=270>
