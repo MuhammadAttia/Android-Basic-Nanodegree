@@ -16,3 +16,6 @@
 ## Project 6: Tour Guide App[Jordan Tour Guide ](https://github.com/MuhammadAttia/Android-Basic-Nanodegree/tree/master/Project%206%20Tour%20Guide%20App)
 #### Create an app to guide a user around a city or location of your choice.
 <img src="https://github.com/MuhammadAttia/Android-Basic-Nanodegree/blob/master/Project%206%20Tour%20Guide%20App/app/jordanTourApp.gif" width=270 hight=270>
+## Project 7: Book List App[Book List](https://github.com/MuhammadAttia/Android-Basic-Nanodegree/tree/master/Project%207%20Book%20List)
+#### Create an app to list the published books on a given topic using the Google Books.
+<img src="https://github.com/MuhammadAttia/Android-Basic-Nanodegree/blob/master/Project%207%20Book%20List/bookApp.gif" width=270 hight=270>
