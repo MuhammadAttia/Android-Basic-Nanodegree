@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book List</string>
+    <string name="search_hint">Search by book title or author</string>
+    <string name="noDataFound">No book With this name Please try again</string>
+    <string name="error_no_internet">No internet connection </string>
+
+    <string name="empty_status"> find your favorite Book Now </string>
+</resources>
