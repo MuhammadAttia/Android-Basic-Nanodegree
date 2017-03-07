@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">"Habit Tracker  "</string>
+    <string name="header"> Id  :  Name Of Habit  :  Category  :  A Numbers Of time</string>
+</resources>
