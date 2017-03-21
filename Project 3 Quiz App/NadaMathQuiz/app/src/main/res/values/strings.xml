@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">"Nada Math quiz "</string>
+    <!-- question 1 -->
+    <string name="question1">1.	What is the value of 12 * 9 ?</string>
+    <!-- question 2 -->
+    <string name="question2">2. What is the value of the expression 1+3 * 4-2 ? </string>
+    <!-- question 3 -->
+    <string name="question3">3.Nada started with 11 toy cars and added 4 more every week until
+        he had 43 altogether.
+        How many weeks did that take?</string>
+    <string name="question3A">A. 6 </string>
+    <string name="question3B">B. 7 </string>
+    <string name="question3C">C. 8 </string>
+    <string name="question3D">D. 9</string>
+    <!-- question 4 -->
+    <string name="question4"> 4. Harare, Zimbabwe is due South of Cairo, Egypt.
+        What direction is Cairo, Egypt from Harare, Zimbabw
+</string>
+    <string name="question4A">A. East </string>
+    <string name="question4B">B. North </string>
+    <string name="question4C">C. South </string>
+    <string name="question4D">D. West</string>
+    <!-- question 5 -->
+    <string name="question5">5. A TV costs three hundred and twelve dollar and forty cents.
+Write this amount in numbers using dollars and decimals of a dollar.
+</string>
+    <string name="question5A">A.312.04</string>
+    <string name="question5B">B.312.14</string>
+    <string name="question5C">C.312.40</string>
+    <string name="question5D">D.321</string>
+    <!-- question 6 -->
+    <string name="question6"> 6. Arrange these in order from least price to greatest price ?</string>
+    <string name="question6A">A. Coffee, Burger, Soda, Onion ring </string>
+    <string name="question6B">B. Onion ring, Soda, Coffee, Burger </string>
+    <string name="question6C">C. Onion ring, Soda, Burger, Coffee  </string>
+    <string name="question6D">D. Onion ring, Burger, Soda, Coffee</string>
+    <!-- question 7 -->
+    <string name="question7">7. Which of the following integers are multiples of both 2 and 3?
+                 Indicate all such integers
+</string>
+    <string name="question7A">A. 9 </string>
+    <string name="question7B">B. 12 </string>
+    <string name="question7C">C. 16</string>
+    <string name="question7D">D. 36</string>
+
+</resources>

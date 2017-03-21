@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="title_NowPlaying">Now Playing</string>
+    <string name="title_Artists">Artists</string>
+    <string name="title_PlayList">PlayList</string>
+    <string name="title_albums">Albums</string>
+    <string name="library"> " This project uses the aweseome library MusicPlayerView  from iammert. https://github.com/iammert/MusicPlayerView "</string>
+</resources>
