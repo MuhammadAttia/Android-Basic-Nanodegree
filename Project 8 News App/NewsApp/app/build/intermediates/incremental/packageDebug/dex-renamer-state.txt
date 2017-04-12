@@ -1,7 +1,0 @@
-#Wed Apr 12 13:12:08 EET 2017
-base.0=C\:\\Users\\Muhammad Attia\\Desktop\\Android-Basic-Nanodegree\\Project 8 News App\\NewsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_deebefd009c7ca4c88ab826d2a123e6e56d39e63
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Muhammad Attia\\Desktop\\Android-Basic-Nanodegree\\Project 8 News App\\NewsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_df9c6bc3b80c9662f8e442ec5fe71d2e7856b1f5\\classes.dex
-base.1=C\:\\Users\\Muhammad Attia\\Desktop\\Android-Basic-Nanodegree\\Project 8 News App\\NewsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_df9c6bc3b80c9662f8e442ec5fe71d2e7856b1f5
-file.0=C\:\\Users\\Muhammad Attia\\Desktop\\Android-Basic-Nanodegree\\Project 8 News App\\NewsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_deebefd009c7ca4c88ab826d2a123e6e56d39e63\\classes.dex
