@@ -1,56 +1,82 @@
 package com.example.news;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.List;
 
-public class NewsAdapter extends ArrayAdapter<News> {
+public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder> {
 
-    private List<News> mNewsList = new ArrayList<>();
+    private ArrayList<News> mNewsList = new ArrayList<>();
+    private Context mContext;
 
-    public NewsAdapter(Context context, ArrayList<News> news) {
-        super(context, 0, news);
-        mNewsList = news;
+    public NewsAdapter(Context mContext,ArrayList<News> mNewsList) {
+        this.mContext = mContext;
+        this.mNewsList = mNewsList;
+
+    }
+    private Context getContext() {
+        return mContext;
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public NewsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        Context context = parent.getContext();
+        // Inflate the custom layout
+        View view = LayoutInflater.from(context).inflate(R.layout.single_news, parent, false);
+        // Return a new holder instance
+        NewsViewHolder holder = new NewsViewHolder(view);
+        return holder;
+    }
 
-        if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.news_layout, parent, false);
-        }
+    @Override
+    public void onBindViewHolder(NewsViewHolder holder, int position) {
 
-        News news = getItem(position);
+        holder.titleText.setText(mNewsList.get(position).getTitle());
+        holder.sectionText.setText(mNewsList.get(position).getSection());
 
-        TextView titleText = (TextView) convertView.findViewById(R.id.title_text);
-        titleText.setText(news.getTitle());
-
-        TextView sectionText = (TextView) convertView.findViewById(R.id.section_text);
-        sectionText.setText(news.getSection());
-
-        TextView authorText = (TextView) convertView.findViewById(R.id.author_text);
-        if (news.getAuthor().equals("")) {
+        TextView authorText = holder.authorText;
+        if (mNewsList.get(position).getAuthor().equals("")) {
             authorText.setText(R.string.no_author);
         } else {
-
-            authorText.setText(news.getAuthor());
+            authorText.setText(mNewsList.get(position).getAuthor());
         }
 
-        TextView dateText = (TextView) convertView.findViewById(R.id.date_text);
-        dateText.setText(formatDate(news.getDate()));
+        holder.dateText.setText(formatDate(mNewsList.get(position).getDate()));
+        holder.trailText.setText(mNewsList.get(position).getTrailText());
+    }
 
-        TextView trailText = (TextView) convertView.findViewById(R.id.trail_text);
-        trailText.setText(news.getTrailText());
+    @Override
+    public int getItemCount() {
+        return mNewsList.size();
+    }
 
-        return convertView;
+
+    public static class NewsViewHolder extends RecyclerView.ViewHolder {
+
+        public TextView titleText;
+        public TextView sectionText;
+        public TextView authorText;
+        public TextView dateText;
+        public TextView trailText;
+
+        public NewsViewHolder(View itemView) {
+            super(itemView);
+
+            titleText = (TextView)itemView.findViewById(R.id.title_text);
+            sectionText = (TextView) itemView.findViewById(R.id.section_text);
+            authorText = (TextView) itemView.findViewById(R.id.author_text);
+            dateText = (TextView) itemView.findViewById(R.id.date_text);
+            trailText = (TextView) itemView.findViewById(R.id.trail_text);
+
+
+        }
 
     }
 
@@ -67,9 +93,5 @@ public class NewsAdapter extends ArrayAdapter<News> {
         return dateReturn;
     }
 
-    public void setNewsList(List<News> newsList) {
-
-        mNewsList.addAll(newsList);
-        notifyDataSetChanged();
-    }
 }
+

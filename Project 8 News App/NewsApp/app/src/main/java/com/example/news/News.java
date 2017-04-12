@@ -5,6 +5,31 @@ public class News {
     private String section;
     private String author;
     private String date;
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setSection(String section) {
+        this.section = section;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setTrailText(String trailText) {
+        this.trailText = trailText;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
     private String trailText;
     private String url;
 
